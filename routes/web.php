@@ -33,5 +33,7 @@ Route::get('/commit6', function () {
 Route::get('/colegio', function () {
     return view('colegio');
 });
-
+Route::get('/universidad', function () {
+    return view('universidad');
+});
 
