@@ -28,3 +28,32 @@ Route::get('/commit5', function () {
 Route::get('/commit6', function () {
     return view('commit6');
 });
+
+
+
+
+Route::get('/laboral1', function () {
+    return view('laboral1');
+});
+
+Route::get('/laboral2', function () {
+    return view('laboral2');
+});
+
+Route::get('/laboral3', function () {
+    return view('laboral3');
+});
+
+
+Route::get('/habilidad1', function () {
+    return view('habilidad1');
+});
+Route::get('/habilidad2', function () {
+    return view('habilidad2');
+});
+Route::get('/habilidad3', function () {
+    return view('habilidad3');
+});
+
+
+
