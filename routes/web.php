@@ -28,3 +28,10 @@ Route::get('/commit5', function () {
 Route::get('/commit6', function () {
     return view('commit6');
 });
+
+
+Route::get('/colegio', function () {
+    return view('colegio');
+});
+
+
